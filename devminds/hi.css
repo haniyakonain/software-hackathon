@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  display: flex;
+  padding: 0 35px;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+   background-image: url("images/back2.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+  background-size: cover;
+    font-family:Arial, sans-serif; 
+    }
+.wrapper{
+  display: flex;
+  max-width: 1600px;
+  position: relative;
+}
+.wrapper i{
+  top: 50%;
+  height: 44px;
+  width: 44px;
+  color: #9aa7bb;
+  cursor: pointer;
+  font-size:1.15rem;
+  position: absolute;
+  text-align: center;
+  line-height: 44px;
+  background: #2f81df;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+.wrapper i:active{
+  transform: translateY(-50%) scale(0.9);
+}
+.wrapper i:hover{
+  background: #dab0b0;
+}
+.wrapper i:first-child{
+  left: -22px;
+  display: none;
+}
+.wrapper i:last-child{
+  right: -22px;
+}
+.wrapper .carousel{
+  font-size:0px,
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+.carousel.dragging{
+  cursor: grab;
+  scroll-behavior: auto;
+}
+.carousel.dragging img{
+  pointer-events: none;
+}
+.carousel img{
+  height: 400px;
+  object-fit: cover;
+  user-select: none;
+  margin-left: 14px;
+  width: calc(100% / 3);
+}
+.carousel img:first-child{
+  margin-left: 0px;
+}
+
+@media screen and (max-width: 900px) {
+  .carousel img{
+    width: calc(100% / 2);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .carousel img{
+    width: 100%;
+  }
+}
+.navbar {
+    background-color: #252658;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-list li {
+    display: inline-block;
+}
+
+.nav-list li a {
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav-list li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+    transform: translateX(-50%);
+}
+
+.nav-list li a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.top-image {
+    position: absolute;
+    top: 300px; 
+    left: 70%; 
+    transform: translateX(-50%);  
+    max-width: 100%;
+}
+.bottom-image {
+    position: absolute;
+    bottom: 400px; /* Adjust this value based on your preference */
+    left: 70%;
+    transform: translateX(-50%);
+    max-width: 100%;
+}
+.bottom-images {
+    position: absolute;
+    bottom: 800px; /* Adjust this value based on your preference */
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;
+}
+.bottom-imagess {
+    position: absolute;
+    bottom: -4300px; /* Adjust this value based on your preference */
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;
+}
+.bottom-imagesss {
+    position: absolute;
+    bottom: -2350px; /* Adjust this value based on your preference */
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;
+}
+.bottom-imagessss {
+    position: absolute;
+    bottom: -3300px; /* Adjust this value based on your preference */
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;}
+.bottom-imagesssss {
+    position: absolute;
+    bottom: -300px; /* Adjust this value based on your preference */
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;}
+
+.container {
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+}
+
+.box > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover; 
+  transition: .5s;
+}
+
+.box > span {
+  font-size:4441px;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+  width: 100%;
+  height: 100%;
+}
+ div.c {
+  text-align: right;
+   color: rgb(226, 244, 252);
+}
+.center {
+  width:1099px;
+    border: 1px solid #d1bdbd;
+    background:#fff;
+    box-shadow: 5px 5px 5px #494949;
+    padding-left: 0px; 
+    overflow:auto
+}
