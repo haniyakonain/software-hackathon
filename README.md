@@ -1,4 +1,4 @@
-# Inside Out Fan Page
+# Inside Out Fan Page🎥
 
 A responsive web application celebrating Pixar's *Inside Out* movie, featuring character galleries, videos, and interactive features. 🎥✨
 
@@ -52,7 +52,7 @@ A responsive web application celebrating Pixar's *Inside Out* movie, featuring c
 
 1. **Clone the repository**:
    ```bash
-   git clone 
+   git clone git@github.com:haniyakonain/software-hackathon.git
    ```
 2. **Navigate to the project directory**:
    ```bash
