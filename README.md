@@ -11,7 +11,6 @@ A responsive web application celebrating Pixar's *Inside Out* movie, featuring c
 - [Getting Started](#-getting-started)
 - [Project Structure](#-project-structure)
 - [Contributing](#-contributing)
-- [Troubleshooting](#-troubleshooting)
 - [Performance Optimization](#-performance-optimization)
 - [License](#-license)
 - [Acknowledgments](#-acknowledgments)
