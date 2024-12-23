@@ -132,5 +132,5 @@ This project is licensed under the MIT License. See the `LICENSE.md` file for de
 
 ---
 
-*Made with ❤️ by **Haniya konain and team**
+Made with ❤️ by **Haniya konain and team**
 
